@@ -5,7 +5,11 @@ $primary-color: gold;
 $secondary-color: purple;
 
 // Typography
+//Hide for mobile and tablet
 
+article h1 {
+    display: none;
+}
 
 // Video Player Styling
 video {
