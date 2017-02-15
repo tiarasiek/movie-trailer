@@ -6,18 +6,8 @@ $secondary-color: #9b1e24;
 
 // Typography
 
-a:link,
-a:visited,
-a:focus {
-    color: $secondary-color;
-}
-
-a:hover {
-    color: #e8e4dd;
-}
-
-a:active {
-    color: black;
+a {
+    padding: 3em;
 }
 
 article h1 {
