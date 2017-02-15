@@ -5,14 +5,17 @@ article h1 {
 
 /* line 14, /Users/User/Desktop/movie-trailer/scss/_global.scss */
 body {
-  background: #df5f18; }
+  background: #df5f18;
+  font-family: 'Source Serif Pro', serif; }
 
-/* line 18, /Users/User/Desktop/movie-trailer/scss/_global.scss */
+/* line 19, /Users/User/Desktop/movie-trailer/scss/_global.scss */
 h1 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 3px;
   text-align: center;
   text-transform: uppercase; }
 
-/* line 24, /Users/User/Desktop/movie-trailer/scss/_global.scss */
+/* line 27, /Users/User/Desktop/movie-trailer/scss/_global.scss */
 video {
   max-width: 100%;
   width: 100%; }

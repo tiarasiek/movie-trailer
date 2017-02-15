@@ -13,9 +13,12 @@ article h1 {
 
 body {
     background: $primary-color;
+    font-family: 'Source Serif Pro', serif;
 }
 
 h1 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 3px;
     text-align: center;
     text-transform: uppercase;
 }
