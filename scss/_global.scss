@@ -18,9 +18,24 @@ body {
 
 h1 {
     font-family: 'Bangers', cursive;
-    letter-spacing: 3px;
+    font-size: 5em;
+    letter-spacing: 4px;
     text-align: center;
     text-transform: uppercase;
+}
+
+a:link,
+a:visited,
+a:focus {
+    color: $secondary-color;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: black;
 }
 
 // Video Player Styling
