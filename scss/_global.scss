@@ -1,14 +1,23 @@
 // Global Stylesheet
 
 // Color Palette
-$primary-color: gold;
-$secondary-color: purple;
+$primary-color: #df5f18;
+$secondary-color: #9b1e24;
 
 // Typography
 //Hide for mobile and tablet
 
 article h1 {
     display: none;
+}
+
+body {
+    background: $primary-color;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
 }
 
 // Video Player Styling
