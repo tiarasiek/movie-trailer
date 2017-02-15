@@ -5,7 +5,20 @@ $primary-color: #df5f18;
 $secondary-color: #9b1e24;
 
 // Typography
-//Hide for mobile and tablet
+
+a:link,
+a:visited,
+a:focus {
+    color: $secondary-color;
+}
+
+a:hover {
+    color: #e8e4dd;
+}
+
+a:active {
+    color: black;
+}
 
 article h1 {
     display: none;
@@ -16,6 +29,10 @@ body {
     font-family: 'Source Serif Pro', serif;
 }
 
+footer {
+    text-align: center;
+}
+
 h1 {
     font-family: 'Bangers', cursive;
     font-size: 5em;
@@ -24,19 +41,6 @@ h1 {
     text-transform: uppercase;
 }
 
-a:link,
-a:visited,
-a:focus {
-    color: $secondary-color;
-}
-
-a:hover {
-    color: white;
-}
-
-a:active {
-    color: black;
-}
 
 // Video Player Styling
 video {
