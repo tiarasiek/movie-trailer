@@ -15,7 +15,7 @@ article h1 {
 }
 
 body {
-    background: $primary-color;
+    background: url(../img/carpet.jpg);
     font-family: 'Source Serif Pro', serif;
 }
 
@@ -23,14 +23,23 @@ footer {
     text-align: center;
 }
 
-h1 {
+h1,
+h2 {
+    color: #e8e4dd;
     font-family: 'Bangers', cursive;
-    font-size: 5em;
     letter-spacing: 4px;
     text-align: center;
     text-transform: uppercase;
 }
 
+h1 {
+    font-size: 6em;
+    margin-bottom: 0px;
+}
+
+article p {
+    background: rgba(232, 228, 221, .75);
+}
 
 // Video Player Styling
 video {
